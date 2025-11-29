@@ -25,4 +25,5 @@
 
 # Gözlemlediklerim?
 Verimiz aşırı saçma bir veriydi. Hava sıcaklığı 800 derece ve yerler lav kaplı buna rağmen ajan bize yine bir kıyafet önerisi verdi. Bu hem pozitif hem de negatif bir özellik aslında. Verinin saçma olması fakat yine de mantıklı bir çıktı verip görevini tamamlaması gayet iyi. Öte yandan bu bize ajanımızın gerçeklik algısının olmadığını gösteriyor. Biz ona veri olarak ne verirsek verelim onu mutlak doğru kabul ediyor. 
-    
+
+Ayrıca burada bir Black Box testi uyguladığımı fark ettim. Bu test şu şekilde yapıldı: Kodumdaki LLM için hava_durumu_getir fonksiyonu bir black box'tı. LLM bu fonksiyonun içini okumaz sadece fonksiyonun adını ve açıklamasını bilir. Ona bir soru sorar ve kutudan çıkan cevabı bekler. Burada yaptığımız hile, kutunun içindeki yapıyı değiştirdik fakat LLM kutunun içini görmediği için, kutudan çıkan cevabı ki burada bu -"800 derece"- mutlak bir gerçek sandı. 
