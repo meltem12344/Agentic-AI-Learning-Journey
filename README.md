@@ -165,6 +165,7 @@ Muhakemede sıkıntımızın olmasının iki temel sebebi var:
 
 **!! Bunun çözümü kodda değişiklik yapmaktan ziyade prompt mühendisliği yaparak LLM'i bir miktar kandırmak. Bunu başka bir branch'te değineceğim.**
 
-**LİNK:**
+[agentic-ai-prompt-engineering branch’ine git](https://github.com/meltem12344/Agentic-AI-Learning-Journey/tree/agentic-ai-prompt-engineering)
+
 
  
